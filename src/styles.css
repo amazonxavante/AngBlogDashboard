@@ -1,1 +1,94 @@
-/* You can add global styles to this file, and also import other style files */
+@import '~bootstrap/dist/css/bootstrap.min.css';
+@import "~ngx-toastr/toastr";
+
+:root{
+    --primary-color:#D9D9D9;
+    --secondary-color:#026467;
+    --featured-color:#009DC4;
+    --navbar-color:#ffffff;
+    --fourth-color:#4467C4;
+    --sixth-color:#006400;  
+    --fiveth-color:#98BF64;
+    --body-text-color:#000000;
+    --navbar-footer-color:#D9D9D9;
+    --nineth-color:#90EE90;
+
+
+}
+
+.text-content{
+    font-family:'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 50px;
+    color: var(--body-text-color);
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium';
+    
+}
+
+
+.body{
+    font-family: sans-serif;
+    font-size: 15px;
+    color: var(--body-text-color);
+    display:contents;
+
+    
+}
+
+.site-logo{
+    padding: 5px 20px;
+    border-radius: 20px;
+    background-color: var(--fiveth-color);
+    color: var(--navbar-color);
+    font-family:'Franklin Gothic Medium';
+    
+}
+
+.nav-link{
+    color: var( --body-text-color);
+
+}
+
+.shadow-effect{
+    border: none;
+    box-shadow: 0px 0px 33px -10px rgba(71, 144, 254, 0.3);
+}
+
+.bg-theme{
+    background-color: var(--featured-color);
+}
+
+.bg-secondary-theme{
+    background-color: var( --nineth-color);
+}
+
+.bg-third-theme{
+    background-color: var(--navbar-color)
+}
+
+
+
+.text-theme-primary{
+    color: var(--sixth-color);
+    font-family:'Franklin Gothic Medium';
+    text-transform: uppercase;
+}
+
+
+
+.btn-theme{
+    height: 48px;
+    border:none;
+    font-size: 13px;
+    background-color: var(--sixth-color);
+}
+
+input[type = text], input[type = email]{
+    height:60px;
+    padding-left: 20px;
+    width:100% !important;
+
+}
+
+
+  
